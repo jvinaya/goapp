@@ -1,0 +1,14 @@
+
+
+DB Commnads
+To Create Migrations
+migrate create -ext sql -dir ./SQL/migrations -seq initial_setup
+
+
+To open psql shell in terminal
+
+docker exec -it  ContainerName psql -U User -d databaseName
+example:
+"docker exec -it  postgres14 psql -U root -d mini-aspire-API"
+
+
